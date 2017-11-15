@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Terra</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+    <link rel="stylesheet" href="terra.css">
+    <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
+
+    <link rel="icon" type="image/png" href="favicon.png">
+
+    <script src="js/jquery-3.2.1.js"></script>
+    <script src="js/scroll-entrance.js"></script>
+
+    <style>
+        /* Ensure elements are hidden while ScrollEntrance is loading */
+        [data-entrance] { visibility: hidden; }
+    </style>
+  </head>
+  <body>
+    <div class="container-fluid">
+      <div class="row menu" style="padding-bottom: 0; text-align: center;">
+        <div class="col-5"></div>
+        <div class="col">
+          <a href="index.html"><img src="uploads/terra.png" width="100%"></a><br>
+        </div>
+        <div class="col-5"></div>
+      </div>
+      <div class="row menu">
+        <div class="col">
+          Teléfono Celular: +52 1 81 1059 6701
+        </div>
+        <div class="col" style="text-align: center;">
+          <a href="index.html">Inicio</a> | <a href="schedule.html">Agendar Cita</a> |
+          Catálogo | <a href="testimonials.html">Casos de Éxito</a>
+        </div>
+        <div class="col" style="text-align: right;">
+          <a href="https://www.facebook.com/Terramx.SPA/">Facebook</a>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-3" style="background-color: #96bd33;"></div>
+        <div class="col" style="margin: 0 auto; text-align: center;"><br><h1>Catálogo</h1><br></div>
+      </div>
+      <form action="comprar.php" method="post">
+      <div class="row">
+        <div class="col-3" style="background-color: #96bd33;"></div>
+        <div class="col item">
+          <img src="catalogo/jabonhumectante.png" height="250px"><br>
+          <b>Jabón Humectante</b><br>
+          Precio: $40.00<br>
+          Cantidad:<input type="number" name="item1"></input>
+        </div>
+        <div class="col item">
+          <img src="catalogo/anticelulitis.png" height="250px"><br>
+          <b>Jabón Anticelulitis</b><br>
+          Precio: $40.00<br>
+          Cantidad:<input type="number" name="item2"></input>
+        </div>
+        <div class="col item">
+          <img src="catalogo/antigripal.png" height="250px"><br>
+          <b>Antigripal</b><br>
+          Precio: $80.00<br>
+          Cantidad:<input type="number" name="item3"></input>
+        </div>
+        <div class="col-2"></div>
+        <div class="col-2 subscribe" style="position: fixed; padding-left: 2%; z-index: 10;" width="100%;">
+          <input type="text" name="nombre" placeholder="Nombre"></input>
+          <input type="text" name="direccion" placeholder="Dirección"></input>
+          <input type="text" name="telefono" placeholder="Teléfono"></input><br>
+          <input type="submit" value="Comprar" style="padding: 0.5em;border: 2px solid; background-color: white;"></input>
+        </div>
+      </div>
+      <div class="row" style="margin-top: -1px;">
+        <div class="col-3" style="background-color: #96bd33;"></div>
+        <div class="col item" data-entrance="fade">
+          <img src="catalogo/dologel.png" height="250px"><br>
+          <b>Dologel</b><br>
+          Precio: $80.00<br>
+          Cantidad:<input type="number" name="item4"></input>
+        </div>
+        <div class="col item" data-entrance="fade">
+          <img src="catalogo/cremareductiva.png" height="250px"><br>
+          <b>Crema Reductiva</b><br>
+          Precio: $80.00<br>
+          Cantidad:<input type="number" name="item5"></input>
+        </div>
+        <div class="col item" data-entrance="fade">
+          <img src="catalogo/etc.png" height="250px"><br>
+          <b>Crema Día</b><br>
+          Precio: $100.00<br>
+          Cantidad:<input type="number" name="item6"></input>
+        </div>
+        <div class="col-2"></div>
+      </div>
+      <div class="row" style="margin-top: -1px;">
+        <div class="col-3" style="background-color: #96bd33;"></div>
+        <div class="col item" data-entrance="fade">
+          <img src="catalogo/etc.png" height="250px"><br>
+          <b>Crema Noche</b><br>
+          Precio: $100.00<br>
+          Cantidad:<input type="number" name="item7"></input>
+        </div>
+        <div class="col item" data-entrance="fade">
+          <img src="catalogo/shampoo.png" height="250px"><br>
+          <b>Shampoo</b><br>
+          Precio: $80.00<br>
+          Cantidad:<input type="number"></input>
+        </div>
+        <div class="col item" data-entrance="fade">
+          <img src="catalogo/etc.png" height="250px"><br>
+          <b>Crema Rejuvenecedora</b><br>
+          Precio: $100.00<br>
+          Cantidad:<input type="number" name="item8"></input>
+        </div>
+        <div class="col-2"></div>
+      </div>
+      <div class="row" style="margin-top: -1px;">
+        <div class="col-3" style="background-color: #96bd33;"><br><br></div>
+        <div class="col"></div>
+      </div>
+    </form>
+      <div class="row footer">
+        <div class="col">
+          BY TERRA
+        </div>
+        <div class="col" style="text-align: right">
+          Redes Sociales
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,161 @@
+body {
+  font-size: 1.2em;
+}
+
+.menu {
+  font-family: 'Oswald', sans-serif;
+  background-color: black;
+  padding: 20px;
+  color: white;
+}
+
+.hello {
+  height: 650px;
+}
+
+.about {
+  font-family: 'Oswald', sans-serif;
+  color: white;
+  background-color: #7d4c2a;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 250px;
+  padding-right: 250px;
+  text-align: center;
+}
+
+.about-terra {
+  font-family: 'Oswald', sans-serif;
+  background-color: #96bd33;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 250px;
+  padding-right: 250px;
+  text-align: center;
+}
+
+.schedule {
+  font-family: 'Oswald', sans-serif;
+  background-color: black;
+  color: white;
+  padding: 50px;
+}
+
+.contact {
+  color: white;
+  background-color: #7d4c2a;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 150px;
+  padding-right: 150px;
+}
+
+.contact input {
+  background-color: inherit;
+  color: white;
+  border-top: 3px;
+  border-left: 3px;
+  border-right: 3px;
+  display: block;
+}
+
+.subscribe input {
+  background-color: inherit;
+  color: black;
+  border-top: 3px;
+  border-left: 3px;
+  border-right: 3px;
+  border-color: black;
+  display: block;
+}
+
+.subscribe {
+  padding-left: 150px;
+  padding-right: 150px;
+}
+
+.contact textarea:focus, .contact input:focus{
+    outline: none;
+    color: white;
+}
+
+.contact ::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color:    white;
+}
+.contact :-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color:    white;
+   opacity:  1;
+}
+.contact ::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color:    white;
+   opacity:  1;
+}
+.contact ::-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color:    white;
+}
+.contact ::-ms-input-placeholder { /* Microsoft Edge */
+   color:    white;
+}
+
+.contact textarea:focus, .contact input:focus{
+    outline: none;
+    color: white;
+}
+
+.subscribe ::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color: black;
+}
+.subscribe :-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color: black;
+   opacity:  1;
+}
+.subscribe ::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color: black;
+   opacity:  1;
+}
+.subscribe ::-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color: black;
+}
+.subscribe ::-ms-input-placeholder { /* Microsoft Edge */
+   color: black;
+}
+
+.footer {
+  background-color: black;
+  color: white;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.subscribe textarea:focus, .subscribe input:focus{
+    outline: none;
+    border-color: gray;
+}
+
+.reviews {
+  background-color: black;
+  color: white;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  padding-left: 150px;
+  padding-right: 150px;
+}
+
+.item {
+  padding: 1em;
+  min-height: 10em;
+}
+
+iframe{
+    overflow:hidden;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+a:hover {
+  cursor: pointer;
+}
